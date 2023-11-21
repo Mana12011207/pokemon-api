@@ -13,6 +13,11 @@ const Main =()=> {
                 <Card/>
                 <Card/>
                 <Card/>
+                <div className="btn-group">
+                    <button>Previous</button>
+                    <button>Next</button>
+
+                </div>
                 </div>
                 <div className="right-content">
                     <Pokemon />
