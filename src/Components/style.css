@@ -21,7 +21,7 @@ body{
     grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
     grid-gap:2rem;
 }
-.card{
+.cards{
     width: 250px;
     height: 150px;
     background-color:#9EDEF9;
@@ -32,6 +32,7 @@ body{
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    font-size:14px
 }
 .right-content{
     width: 50%;
