@@ -5,8 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #FCEEC8;
+    background-color: rgb(234, 227, 78);
 }
+
 .container{
     width: 90%;
     margin: auto;
@@ -19,12 +20,12 @@ body{
 .left-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
-    grid-gap:2rem;
+    grid-gap: 2rem;
 }
 .cards{
     width: 250px;
     height: 150px;
-    background-color:#9EDEF9;
+    background-color:rgb(158, 154, 154);
     border-radius: 1rem;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
     padding: 0 1.5rem;
@@ -32,6 +33,7 @@ body{
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    font-weight: bold;
     font-size:14px
 }
 .right-content{
@@ -44,7 +46,8 @@ body{
 }
 .right-content img{
     margin: 1.5rem;
-    height: 160px;
+    height: 300px;
+
 }
 .right-content h1{
     text-transform: uppercase;
@@ -58,12 +61,13 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+    font-size: 24px;
 }
 .abilities .group{
     background-color: #b74555;
     color: white;
     padding: 0.5rem;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 8px;
     margin-left: 1rem;
 }
@@ -79,7 +83,7 @@ body{
     width: 150px;
     padding: 0.3rem 0;
     margin: 1rem;
-    font-size: 17px;
+    font-size: 22px;
     font-weight: bold;
     color: white;
     background-color: #b74555;
